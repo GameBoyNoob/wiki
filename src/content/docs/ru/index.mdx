@@ -1,0 +1,26 @@
+---
+title: Добро пожаловать на CachyOS Вики
+description: Принять участие!
+template: splash
+hero:
+  tagline: Изучите и найдите свои вопросы!
+  image:
+    file: ~/assets/logo.png
+  actions:
+    - text: Изучить
+      link: /cachyos_basic/download
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Getting Started
+
+<CardGrid>
+  <LinkCard title="Как CachyOS Улучшает Производительность" href="/cachyos_basic/why_cachyos"
+   description="Ознакомьтесь с изменениями, которые мы вносим для улучшения производительности">
+  </LinkCard>
+  <LinkCard title="Руководство по установке" href="/installation/installation_prepare" description="Узнайте, как установить CachyOS с помощью нашего графического установщика или установщика из командной строки. Требуется подключение к Интернету">
+  </LinkCard>
+</CardGrid>
